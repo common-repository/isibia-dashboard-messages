@@ -1,0 +1,67 @@
+.isibia-modal {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.isibia-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #8c8f94;
+    background-color: #f0f0f1;
+}
+.isibia-modal-header h2 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 400;
+    color: #1d2327;
+    line-height: 1.3;
+}
+.isibia-modal-header .dashicons {
+    cursor: pointer;
+    opacity: .9;
+}
+.isibia-modal-header .dashicons:hover {
+    opacity: 1;
+}
+.isibia-modal-settings,
+.isibia-modal-editor {
+    padding: 10px;
+}
+.isibia-modal-settings label {
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.isibia-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 10px 20px;
+}
+.isibia-modal-footer button:first-child {
+    margin-right: 10px;
+}
+#isibia-dashmess-settings .row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.isibia-message {
+    padding: 15px;
+}
+.isibia-message h3 {
+    margin: 0 0 15px;
+}
